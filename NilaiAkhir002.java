@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class NilaiAkhir002 {
     public static void main(String[] args) {
-        double tugas, kuis, uts, uas;
-        double nilai_akhir;
+        double tugas, kuis, uts, uas, nilai_akhir;
         String nilai_huruf;
         Scanner scan = new Scanner(System.in);
 
