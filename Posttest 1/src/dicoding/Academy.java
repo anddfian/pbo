@@ -56,7 +56,7 @@ public class Academy {
         this.technology = technology;
     }
 
-    public void tampil(int step, String name, String description, String level, int time, String technology) {
+    public void show(int step, String name, String description, String level, int time, String technology) {
         System.out.println("Langkah ke-" + step);
         System.out.println("Nama Akademi : " + name);
         System.out.println("Deskripsi Akademi : " + description);
