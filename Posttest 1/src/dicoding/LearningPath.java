@@ -3,7 +3,7 @@ package dicoding;
 public class LearningPath {
     private String name;
     private String description;
-    private int class_academy;
+    private int classAcademy;
 
     public String getName() {
         return name;
@@ -21,17 +21,17 @@ public class LearningPath {
         this.description = description;
     }
 
-    public int getClass_academy() {
-        return class_academy;
+    public int getClassAcademy() {
+        return classAcademy;
     }
 
-    public void setClass_academy(int class_academy) {
-        this.class_academy = class_academy;
+    public void setClassAcademy(int classAcademy) {
+        this.classAcademy = classAcademy;
     }
 
-    public void tampil(String name, String description, int class_academy) {
+    public void show(String name, String description, int classAcademy) {
         System.out.println("Nama Alur Belajar : " + name);
         System.out.println("Deskripsi Alur Belajar : " + description);
-        System.out.println("Jumlah Kelas Akademi : " + class_academy + "\n");
+        System.out.println("Jumlah Kelas Akademi : " + classAcademy + "\n");
     }
 }
