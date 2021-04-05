@@ -56,7 +56,7 @@ public class Dicoding {
         // Machine Learning Developer
         machineLearningDeveloper.setName("Machine Learning Developer");
         machineLearningDeveloper.setDescription("Kurikulum lengkap yang disusun oleh dicoding.Dicoding bersama IBM dan Google beserta pelaku industri. Siswa dipersiapkan untuk menjadi Machine Learning Developer sesuai standar kebutuhan industri.");
-        machineLearningDeveloper.setClass_academy(4);
+        machineLearningDeveloper.setClassAcademy(4);
 
         belajarDasarVisualisasiData.setStep(1);
         belajarDasarVisualisasiData.setName("Belajar Dasar Visualisasi Data");
@@ -89,7 +89,7 @@ public class Dicoding {
         // Android Developer
         androidDeveloper.setName("Android Developer");
         androidDeveloper.setDescription("Kurikulum didesain oleh dicoding.Dicoding sebagai satu-satunya Google Developers Authorized Training Partner di Indonesia. Siswa dipersiapkan untuk menjadi Android Developer berstandar global Google.");
-        androidDeveloper.setClass_academy(6);
+        androidDeveloper.setClassAcademy(6);
 
         memulaiPemrogramanDenganKotlin.setStep(1);
         memulaiPemrogramanDenganKotlin.setName("Memulai Pemrograman Dengan Kotlin");
@@ -136,7 +136,7 @@ public class Dicoding {
         // iOS Developer
         iOSDeveloper.setName("iOS Developer");
         iOSDeveloper.setDescription("Kurikulum disusun oleh dicoding.Dicoding dan pelaku industri di bidang iOS Development. Siswa dipersiapkan untuk menjadi iOS Developer sesuai standar kebutuhan industri.");
-        iOSDeveloper.setClass_academy(5);
+        iOSDeveloper.setClassAcademy(5);
 
         memulaiPemrogramanDenganSwift.setStep(1);
         memulaiPemrogramanDenganSwift.setName("Memulai Pemrograman Dengan Swift");
@@ -169,7 +169,7 @@ public class Dicoding {
         // Front-End Web Developer
         frontEndWebDeveloper.setName("Front-End Web Developer");
         frontEndWebDeveloper.setDescription("Kurikulum disusun oleh dicoding.Dicoding dan pelaku industri di bidang Web Development. Siswa dipersiapkan untuk menjadi Front-End Web Developer sesuai standar kebutuhan industri.");
-        frontEndWebDeveloper.setClass_academy(3);
+        frontEndWebDeveloper.setClassAcademy(3);
 
         belajarDasarPemrogramanWeb.setStep(1);
         belajarDasarPemrogramanWeb.setName("Belajar Dasar Pemrograman Web");
@@ -195,7 +195,7 @@ public class Dicoding {
         // Back-End Developer
         backEndDeveloper.setName("Back-End Developer");
         backEndDeveloper.setDescription("Kurikulum disusun oleh dicoding.Dicoding bersama AWS beserta pelaku industri Back-End Development. Siswa dipersiapkan untuk menjadi Back-End Developer sesuai kebutuhan industri.");
-        backEndDeveloper.setClass_academy(6);
+        backEndDeveloper.setClassAcademy(6);
 
         belajarDasarAWSCloud.setStep(1);
         belajarDasarAWSCloud.setName("Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)");
@@ -242,7 +242,7 @@ public class Dicoding {
         // Azure Cloud Developer
         azureCloudDeveloper.setName("Azure Cloud Developer");
         azureCloudDeveloper.setDescription("Kurikulum lengkap yang didesain bersama salah satu penyedia cloud solution terbesar di dunia yaitu Microsoft Azure. Setiap kelas mempersiapkan siswa untuk ujian sertifikasi resmi Azure dari Microsoft.");
-        androidDeveloper.setClass_academy(2);
+        androidDeveloper.setClassAcademy(2);
 
         belajarDasarDasarAzureCloud.setStep(1);
         belajarDasarDasarAzureCloud.setName("Belajar Dasar-Dasar Azure Cloud");
@@ -261,7 +261,7 @@ public class Dicoding {
         // Multi-Platform App Developer
         multiPlatformAppDeveloper.setName("Multi-Platform App Developer");
         multiPlatformAppDeveloper.setDescription("Kurikulum disusun oleh dicoding.Dicoding bersama Google beserta pelaku industri Multi-Platform App Development. Siswa dipersiapkan untuk menjadi Multi-Platform App Developer sesuai standar kebutuhan industri.");
-        multiPlatformAppDeveloper.setClass_academy(5);
+        multiPlatformAppDeveloper.setClassAcademy(5);
 
         memulaiPemrogramanDenganDart.setStep(1);
         memulaiPemrogramanDenganDart.setName("Memulai Pemrograman Dengan Dart");
@@ -291,47 +291,47 @@ public class Dicoding {
         menjadiFlutterDeveloperExpert.setTime(70);
         menjadiFlutterDeveloperExpert.setTechnology("Android, iOS, Multi Platform");
 
-        machineLearningDeveloper.tampil(machineLearningDeveloper.getName(), machineLearningDeveloper.getDescription(), machineLearningDeveloper.getClass_academy());
-        belajarDasarVisualisasiData.tampil(belajarDasarVisualisasiData.getStep(), belajarDasarVisualisasiData.getName(), belajarDasarVisualisasiData.getDescription(), belajarDasarVisualisasiData.getLevel(), belajarDasarVisualisasiData.getTime(), belajarDasarVisualisasiData.getTechnology());
-        memulaiPemrogramanDenganPython.tampil(memulaiPemrogramanDenganPython.getStep(), memulaiPemrogramanDenganPython.getName(), memulaiPemrogramanDenganPython.getDescription(), memulaiPemrogramanDenganPython.getLevel(), memulaiPemrogramanDenganPython.getTime(), memulaiPemrogramanDenganPython.getTechnology());
-        belajarMachineLearningUntukPemula.tampil(belajarMachineLearningUntukPemula.getStep(), belajarMachineLearningUntukPemula.getName(), belajarMachineLearningUntukPemula.getDescription(), belajarMachineLearningUntukPemula.getLevel(), belajarMachineLearningUntukPemula.getTime(), belajarMachineLearningUntukPemula.getTechnology());
-        belajarPengembanganMachineLearning.tampil(belajarPengembanganMachineLearning.getStep(), belajarPengembanganMachineLearning.getName(), belajarPengembanganMachineLearning.getDescription(), belajarPengembanganMachineLearning.getLevel(), belajarPengembanganMachineLearning.getTime(), belajarPengembanganMachineLearning.getTechnology());
+        machineLearningDeveloper.show(machineLearningDeveloper.getName(), machineLearningDeveloper.getDescription(), machineLearningDeveloper.getClassAcademy());
+        belajarDasarVisualisasiData.show(belajarDasarVisualisasiData.getStep(), belajarDasarVisualisasiData.getName(), belajarDasarVisualisasiData.getDescription(), belajarDasarVisualisasiData.getLevel(), belajarDasarVisualisasiData.getTime(), belajarDasarVisualisasiData.getTechnology());
+        memulaiPemrogramanDenganPython.show(memulaiPemrogramanDenganPython.getStep(), memulaiPemrogramanDenganPython.getName(), memulaiPemrogramanDenganPython.getDescription(), memulaiPemrogramanDenganPython.getLevel(), memulaiPemrogramanDenganPython.getTime(), memulaiPemrogramanDenganPython.getTechnology());
+        belajarMachineLearningUntukPemula.show(belajarMachineLearningUntukPemula.getStep(), belajarMachineLearningUntukPemula.getName(), belajarMachineLearningUntukPemula.getDescription(), belajarMachineLearningUntukPemula.getLevel(), belajarMachineLearningUntukPemula.getTime(), belajarMachineLearningUntukPemula.getTechnology());
+        belajarPengembanganMachineLearning.show(belajarPengembanganMachineLearning.getStep(), belajarPengembanganMachineLearning.getName(), belajarPengembanganMachineLearning.getDescription(), belajarPengembanganMachineLearning.getLevel(), belajarPengembanganMachineLearning.getTime(), belajarPengembanganMachineLearning.getTechnology());
 
-        androidDeveloper.tampil(androidDeveloper.getName(), androidDeveloper.getDescription(), androidDeveloper.getClass_academy());
-        memulaiPemrogramanDenganKotlin.tampil(memulaiPemrogramanDenganKotlin.getStep(), memulaiPemrogramanDenganKotlin.getName(), memulaiPemrogramanDenganKotlin.getDescription(), memulaiPemrogramanDenganKotlin.getLevel(), memulaiPemrogramanDenganKotlin.getTime(), memulaiPemrogramanDenganKotlin.getTechnology());
-        belajarPrinsipPemrogramanSOLID.tampil(belajarPrinsipPemrogramanSOLID.getStep(), belajarPrinsipPemrogramanSOLID.getName(), belajarPrinsipPemrogramanSOLID.getDescription(), belajarPrinsipPemrogramanSOLID.getLevel(), belajarPrinsipPemrogramanSOLID.getTime(), belajarPrinsipPemrogramanSOLID.getTechnology());
-        belajarMembuatAplikasiAndroidUntukPemula.tampil(belajarMembuatAplikasiAndroidUntukPemula.getStep(), belajarMembuatAplikasiAndroidUntukPemula.getName(), belajarMembuatAplikasiAndroidUntukPemula.getDescription(), belajarMembuatAplikasiAndroidUntukPemula.getLevel(), belajarMembuatAplikasiAndroidUntukPemula.getTime(), belajarMembuatAplikasiAndroidUntukPemula.getTechnology());
-        belajarFundamentalAplikasiAndroid.tampil(belajarFundamentalAplikasiAndroid.getStep(), belajarFundamentalAplikasiAndroid.getName(), belajarFundamentalAplikasiAndroid.getDescription(), belajarFundamentalAplikasiAndroid.getLevel(), belajarFundamentalAplikasiAndroid.getTime(), belajarFundamentalAplikasiAndroid.getTechnology());
-        belajarAndroidJetpackPro.tampil(belajarAndroidJetpackPro.getStep(), belajarAndroidJetpackPro.getName(), belajarAndroidJetpackPro.getDescription(), belajarAndroidJetpackPro.getLevel(), belajarAndroidJetpackPro.getTime(), belajarAndroidJetpackPro.getTechnology());
-        menjadiAndroidDeveloperExpert.tampil(menjadiAndroidDeveloperExpert.getStep(), menjadiAndroidDeveloperExpert.getName(), menjadiAndroidDeveloperExpert.getDescription(), menjadiAndroidDeveloperExpert.getLevel(), menjadiAndroidDeveloperExpert.getTime(), menjadiAndroidDeveloperExpert.getTechnology());
+        androidDeveloper.show(androidDeveloper.getName(), androidDeveloper.getDescription(), androidDeveloper.getClassAcademy());
+        memulaiPemrogramanDenganKotlin.show(memulaiPemrogramanDenganKotlin.getStep(), memulaiPemrogramanDenganKotlin.getName(), memulaiPemrogramanDenganKotlin.getDescription(), memulaiPemrogramanDenganKotlin.getLevel(), memulaiPemrogramanDenganKotlin.getTime(), memulaiPemrogramanDenganKotlin.getTechnology());
+        belajarPrinsipPemrogramanSOLID.show(belajarPrinsipPemrogramanSOLID.getStep(), belajarPrinsipPemrogramanSOLID.getName(), belajarPrinsipPemrogramanSOLID.getDescription(), belajarPrinsipPemrogramanSOLID.getLevel(), belajarPrinsipPemrogramanSOLID.getTime(), belajarPrinsipPemrogramanSOLID.getTechnology());
+        belajarMembuatAplikasiAndroidUntukPemula.show(belajarMembuatAplikasiAndroidUntukPemula.getStep(), belajarMembuatAplikasiAndroidUntukPemula.getName(), belajarMembuatAplikasiAndroidUntukPemula.getDescription(), belajarMembuatAplikasiAndroidUntukPemula.getLevel(), belajarMembuatAplikasiAndroidUntukPemula.getTime(), belajarMembuatAplikasiAndroidUntukPemula.getTechnology());
+        belajarFundamentalAplikasiAndroid.show(belajarFundamentalAplikasiAndroid.getStep(), belajarFundamentalAplikasiAndroid.getName(), belajarFundamentalAplikasiAndroid.getDescription(), belajarFundamentalAplikasiAndroid.getLevel(), belajarFundamentalAplikasiAndroid.getTime(), belajarFundamentalAplikasiAndroid.getTechnology());
+        belajarAndroidJetpackPro.show(belajarAndroidJetpackPro.getStep(), belajarAndroidJetpackPro.getName(), belajarAndroidJetpackPro.getDescription(), belajarAndroidJetpackPro.getLevel(), belajarAndroidJetpackPro.getTime(), belajarAndroidJetpackPro.getTechnology());
+        menjadiAndroidDeveloperExpert.show(menjadiAndroidDeveloperExpert.getStep(), menjadiAndroidDeveloperExpert.getName(), menjadiAndroidDeveloperExpert.getDescription(), menjadiAndroidDeveloperExpert.getLevel(), menjadiAndroidDeveloperExpert.getTime(), menjadiAndroidDeveloperExpert.getTechnology());
 
-        iOSDeveloper.tampil(iOSDeveloper.getName(), iOSDeveloper.getDescription(), iOSDeveloper.getClass_academy());
-        memulaiPemrogramanDenganSwift.tampil(memulaiPemrogramanDenganSwift.getStep(), memulaiPemrogramanDenganSwift.getName(), memulaiPemrogramanDenganSwift.getDescription(), memulaiPemrogramanDenganSwift.getLevel(), memulaiPemrogramanDenganSwift.getTime(), memulaiPemrogramanDenganSwift.getTechnology());
-        belajarMembuatAplikasiIOSUntukPemula.tampil(belajarMembuatAplikasiIOSUntukPemula.getStep(), belajarMembuatAplikasiIOSUntukPemula.getName(), belajarMembuatAplikasiIOSUntukPemula.getDescription(), belajarMembuatAplikasiIOSUntukPemula.getLevel(), belajarMembuatAplikasiIOSUntukPemula.getTime(), belajarMembuatAplikasiIOSUntukPemula.getTechnology());
-        belajarFundamentalAplikasiIOS.tampil(belajarFundamentalAplikasiIOS.getStep(), belajarFundamentalAplikasiIOS.getName(), belajarFundamentalAplikasiIOS.getDescription(), belajarFundamentalAplikasiIOS.getLevel(), belajarFundamentalAplikasiIOS.getTime(), belajarFundamentalAplikasiIOS.getTechnology());
-        menjadiIOSDeveloperExpert.tampil(menjadiIOSDeveloperExpert.getStep(), menjadiIOSDeveloperExpert.getName(), menjadiIOSDeveloperExpert.getDescription(), menjadiIOSDeveloperExpert.getLevel(), menjadiIOSDeveloperExpert.getTime(), menjadiIOSDeveloperExpert.getTechnology());
+        iOSDeveloper.show(iOSDeveloper.getName(), iOSDeveloper.getDescription(), iOSDeveloper.getClassAcademy());
+        memulaiPemrogramanDenganSwift.show(memulaiPemrogramanDenganSwift.getStep(), memulaiPemrogramanDenganSwift.getName(), memulaiPemrogramanDenganSwift.getDescription(), memulaiPemrogramanDenganSwift.getLevel(), memulaiPemrogramanDenganSwift.getTime(), memulaiPemrogramanDenganSwift.getTechnology());
+        belajarMembuatAplikasiIOSUntukPemula.show(belajarMembuatAplikasiIOSUntukPemula.getStep(), belajarMembuatAplikasiIOSUntukPemula.getName(), belajarMembuatAplikasiIOSUntukPemula.getDescription(), belajarMembuatAplikasiIOSUntukPemula.getLevel(), belajarMembuatAplikasiIOSUntukPemula.getTime(), belajarMembuatAplikasiIOSUntukPemula.getTechnology());
+        belajarFundamentalAplikasiIOS.show(belajarFundamentalAplikasiIOS.getStep(), belajarFundamentalAplikasiIOS.getName(), belajarFundamentalAplikasiIOS.getDescription(), belajarFundamentalAplikasiIOS.getLevel(), belajarFundamentalAplikasiIOS.getTime(), belajarFundamentalAplikasiIOS.getTechnology());
+        menjadiIOSDeveloperExpert.show(menjadiIOSDeveloperExpert.getStep(), menjadiIOSDeveloperExpert.getName(), menjadiIOSDeveloperExpert.getDescription(), menjadiIOSDeveloperExpert.getLevel(), menjadiIOSDeveloperExpert.getTime(), menjadiIOSDeveloperExpert.getTechnology());
 
-        frontEndWebDeveloper.tampil(frontEndWebDeveloper.getName(), frontEndWebDeveloper.getDescription(), frontEndWebDeveloper.getClass_academy());
-        belajarDasarPemrogramanWeb.tampil(belajarDasarPemrogramanWeb.getStep(), belajarDasarPemrogramanWeb.getName(), belajarDasarPemrogramanWeb.getDescription(), belajarDasarPemrogramanWeb.getLevel(), belajarDasarPemrogramanWeb.getTime(), belajarDasarPemrogramanWeb.getTechnology());
-        belajarFundamentalFrontEndWebDevelopment.tampil(belajarFundamentalFrontEndWebDevelopment.getStep(), belajarFundamentalFrontEndWebDevelopment.getName(), belajarFundamentalFrontEndWebDevelopment.getDescription(), belajarFundamentalFrontEndWebDevelopment.getLevel(), belajarFundamentalFrontEndWebDevelopment.getTime(), belajarFundamentalFrontEndWebDevelopment.getTechnology());
-        menjadiFrontEndWebDeveloperExpert.tampil(menjadiFrontEndWebDeveloperExpert.getStep(), menjadiFrontEndWebDeveloperExpert.getName(), menjadiFrontEndWebDeveloperExpert.getDescription(), menjadiFrontEndWebDeveloperExpert.getLevel(), menjadiFrontEndWebDeveloperExpert.getTime(), menjadiFrontEndWebDeveloperExpert.getTechnology());
+        frontEndWebDeveloper.show(frontEndWebDeveloper.getName(), frontEndWebDeveloper.getDescription(), frontEndWebDeveloper.getClassAcademy());
+        belajarDasarPemrogramanWeb.show(belajarDasarPemrogramanWeb.getStep(), belajarDasarPemrogramanWeb.getName(), belajarDasarPemrogramanWeb.getDescription(), belajarDasarPemrogramanWeb.getLevel(), belajarDasarPemrogramanWeb.getTime(), belajarDasarPemrogramanWeb.getTechnology());
+        belajarFundamentalFrontEndWebDevelopment.show(belajarFundamentalFrontEndWebDevelopment.getStep(), belajarFundamentalFrontEndWebDevelopment.getName(), belajarFundamentalFrontEndWebDevelopment.getDescription(), belajarFundamentalFrontEndWebDevelopment.getLevel(), belajarFundamentalFrontEndWebDevelopment.getTime(), belajarFundamentalFrontEndWebDevelopment.getTechnology());
+        menjadiFrontEndWebDeveloperExpert.show(menjadiFrontEndWebDeveloperExpert.getStep(), menjadiFrontEndWebDeveloperExpert.getName(), menjadiFrontEndWebDeveloperExpert.getDescription(), menjadiFrontEndWebDeveloperExpert.getLevel(), menjadiFrontEndWebDeveloperExpert.getTime(), menjadiFrontEndWebDeveloperExpert.getTechnology());
 
-        backEndDeveloper.tampil(backEndDeveloper.getName(), backEndDeveloper.getDescription(), backEndDeveloper.getClass_academy());
-        belajarDasarAWSCloud.tampil(belajarDasarAWSCloud.getStep(), belajarDasarAWSCloud.getName(), belajarDasarAWSCloud.getDescription(), belajarDasarAWSCloud.getLevel(), belajarDasarAWSCloud.getTime(), belajarDasarAWSCloud.getTechnology());
-        belajarDasarPemrogramanJavaScript.tampil(belajarDasarPemrogramanJavaScript.getStep(), belajarDasarPemrogramanJavaScript.getName(), belajarDasarPemrogramanJavaScript.getDescription(), belajarDasarPemrogramanJavaScript.getLevel(), belajarDasarPemrogramanJavaScript.getTime(), belajarDasarPemrogramanJavaScript.getTechnology());
-        belajarMembuatAplikasiBackEndUntukPemula.tampil(belajarMembuatAplikasiBackEndUntukPemula.getStep(), belajarMembuatAplikasiBackEndUntukPemula.getName(), belajarMembuatAplikasiBackEndUntukPemula.getDescription(), belajarMembuatAplikasiBackEndUntukPemula.getLevel(), belajarMembuatAplikasiBackEndUntukPemula.getTime(), belajarMembuatAplikasiBackEndUntukPemula.getTechnology());
-        membangunArsitekturAWSDiCloud.tampil(membangunArsitekturAWSDiCloud.getStep(), membangunArsitekturAWSDiCloud.getName(), membangunArsitekturAWSDiCloud.getDescription(), membangunArsitekturAWSDiCloud.getLevel(), membangunArsitekturAWSDiCloud.getTime(), membangunArsitekturAWSDiCloud.getTechnology());
-        belajarFundamentalAplikasiBackEnd.tampil(belajarFundamentalAplikasiBackEnd.getStep(), belajarFundamentalAplikasiBackEnd.getName(), belajarFundamentalAplikasiBackEnd.getDescription(), belajarFundamentalAplikasiBackEnd.getLevel(), belajarFundamentalAplikasiBackEnd.getTime(), belajarFundamentalAplikasiBackEnd.getTechnology());
-        menjadiBackEndDeveloperExpert.tampil(menjadiBackEndDeveloperExpert.getStep(), menjadiBackEndDeveloperExpert.getName(), menjadiBackEndDeveloperExpert.getDescription(), menjadiBackEndDeveloperExpert.getLevel(), menjadiBackEndDeveloperExpert.getTime(), menjadiBackEndDeveloperExpert.getTechnology());
+        backEndDeveloper.show(backEndDeveloper.getName(), backEndDeveloper.getDescription(), backEndDeveloper.getClassAcademy());
+        belajarDasarAWSCloud.show(belajarDasarAWSCloud.getStep(), belajarDasarAWSCloud.getName(), belajarDasarAWSCloud.getDescription(), belajarDasarAWSCloud.getLevel(), belajarDasarAWSCloud.getTime(), belajarDasarAWSCloud.getTechnology());
+        belajarDasarPemrogramanJavaScript.show(belajarDasarPemrogramanJavaScript.getStep(), belajarDasarPemrogramanJavaScript.getName(), belajarDasarPemrogramanJavaScript.getDescription(), belajarDasarPemrogramanJavaScript.getLevel(), belajarDasarPemrogramanJavaScript.getTime(), belajarDasarPemrogramanJavaScript.getTechnology());
+        belajarMembuatAplikasiBackEndUntukPemula.show(belajarMembuatAplikasiBackEndUntukPemula.getStep(), belajarMembuatAplikasiBackEndUntukPemula.getName(), belajarMembuatAplikasiBackEndUntukPemula.getDescription(), belajarMembuatAplikasiBackEndUntukPemula.getLevel(), belajarMembuatAplikasiBackEndUntukPemula.getTime(), belajarMembuatAplikasiBackEndUntukPemula.getTechnology());
+        membangunArsitekturAWSDiCloud.show(membangunArsitekturAWSDiCloud.getStep(), membangunArsitekturAWSDiCloud.getName(), membangunArsitekturAWSDiCloud.getDescription(), membangunArsitekturAWSDiCloud.getLevel(), membangunArsitekturAWSDiCloud.getTime(), membangunArsitekturAWSDiCloud.getTechnology());
+        belajarFundamentalAplikasiBackEnd.show(belajarFundamentalAplikasiBackEnd.getStep(), belajarFundamentalAplikasiBackEnd.getName(), belajarFundamentalAplikasiBackEnd.getDescription(), belajarFundamentalAplikasiBackEnd.getLevel(), belajarFundamentalAplikasiBackEnd.getTime(), belajarFundamentalAplikasiBackEnd.getTechnology());
+        menjadiBackEndDeveloperExpert.show(menjadiBackEndDeveloperExpert.getStep(), menjadiBackEndDeveloperExpert.getName(), menjadiBackEndDeveloperExpert.getDescription(), menjadiBackEndDeveloperExpert.getLevel(), menjadiBackEndDeveloperExpert.getTime(), menjadiBackEndDeveloperExpert.getTechnology());
 
-        azureCloudDeveloper.tampil(azureCloudDeveloper.getName(), azureCloudDeveloper.getDescription(), azureCloudDeveloper.getClass_academy());
-        belajarDasarDasarAzureCloud.tampil(belajarDasarDasarAzureCloud.getStep(), belajarDasarDasarAzureCloud.getName(), belajarDasarDasarAzureCloud.getDescription(), belajarDasarDasarAzureCloud.getLevel(), belajarDasarDasarAzureCloud.getTime(), belajarDasarDasarAzureCloud.getTechnology());
-        menjadiAzureCloudDeveloper.tampil(menjadiAzureCloudDeveloper.getStep(), menjadiAzureCloudDeveloper.getName(), menjadiAzureCloudDeveloper.getDescription(), menjadiAzureCloudDeveloper.getLevel(), menjadiAzureCloudDeveloper.getTime(), menjadiAzureCloudDeveloper.getTechnology());
+        azureCloudDeveloper.show(azureCloudDeveloper.getName(), azureCloudDeveloper.getDescription(), azureCloudDeveloper.getClassAcademy());
+        belajarDasarDasarAzureCloud.show(belajarDasarDasarAzureCloud.getStep(), belajarDasarDasarAzureCloud.getName(), belajarDasarDasarAzureCloud.getDescription(), belajarDasarDasarAzureCloud.getLevel(), belajarDasarDasarAzureCloud.getTime(), belajarDasarDasarAzureCloud.getTechnology());
+        menjadiAzureCloudDeveloper.show(menjadiAzureCloudDeveloper.getStep(), menjadiAzureCloudDeveloper.getName(), menjadiAzureCloudDeveloper.getDescription(), menjadiAzureCloudDeveloper.getLevel(), menjadiAzureCloudDeveloper.getTime(), menjadiAzureCloudDeveloper.getTechnology());
 
-        multiPlatformAppDeveloper.tampil(multiPlatformAppDeveloper.getName(), multiPlatformAppDeveloper.getDescription(), multiPlatformAppDeveloper.getClass_academy());
-        memulaiPemrogramanDenganDart.tampil(memulaiPemrogramanDenganDart.getStep(), memulaiPemrogramanDenganDart.getName(), memulaiPemrogramanDenganDart.getDescription(), memulaiPemrogramanDenganDart.getLevel(), memulaiPemrogramanDenganDart.getTime(), memulaiPemrogramanDenganDart.getTechnology());
-        belajarMembuatAplikasiFlutterUntukPemula.tampil(belajarMembuatAplikasiFlutterUntukPemula.getStep(), belajarMembuatAplikasiFlutterUntukPemula.getName(), belajarMembuatAplikasiFlutterUntukPemula.getDescription(), belajarMembuatAplikasiFlutterUntukPemula.getLevel(), belajarMembuatAplikasiFlutterUntukPemula.getTime(), belajarMembuatAplikasiFlutterUntukPemula.getTechnology());
-        belajarFundamentalAplikasiFlutter.tampil(belajarFundamentalAplikasiFlutter.getStep(), belajarFundamentalAplikasiFlutter.getName(), belajarFundamentalAplikasiFlutter.getDescription(), belajarFundamentalAplikasiFlutter.getLevel(), belajarFundamentalAplikasiFlutter.getTime(), belajarFundamentalAplikasiFlutter.getTechnology());
-        menjadiFlutterDeveloperExpert.tampil(menjadiFlutterDeveloperExpert.getStep(), menjadiFlutterDeveloperExpert.getName(), menjadiFlutterDeveloperExpert.getDescription(), menjadiFlutterDeveloperExpert.getLevel(), menjadiFlutterDeveloperExpert.getTime(), menjadiFlutterDeveloperExpert.getTechnology());
+        multiPlatformAppDeveloper.show(multiPlatformAppDeveloper.getName(), multiPlatformAppDeveloper.getDescription(), multiPlatformAppDeveloper.getClassAcademy());
+        memulaiPemrogramanDenganDart.show(memulaiPemrogramanDenganDart.getStep(), memulaiPemrogramanDenganDart.getName(), memulaiPemrogramanDenganDart.getDescription(), memulaiPemrogramanDenganDart.getLevel(), memulaiPemrogramanDenganDart.getTime(), memulaiPemrogramanDenganDart.getTechnology());
+        belajarMembuatAplikasiFlutterUntukPemula.show(belajarMembuatAplikasiFlutterUntukPemula.getStep(), belajarMembuatAplikasiFlutterUntukPemula.getName(), belajarMembuatAplikasiFlutterUntukPemula.getDescription(), belajarMembuatAplikasiFlutterUntukPemula.getLevel(), belajarMembuatAplikasiFlutterUntukPemula.getTime(), belajarMembuatAplikasiFlutterUntukPemula.getTechnology());
+        belajarFundamentalAplikasiFlutter.show(belajarFundamentalAplikasiFlutter.getStep(), belajarFundamentalAplikasiFlutter.getName(), belajarFundamentalAplikasiFlutter.getDescription(), belajarFundamentalAplikasiFlutter.getLevel(), belajarFundamentalAplikasiFlutter.getTime(), belajarFundamentalAplikasiFlutter.getTechnology());
+        menjadiFlutterDeveloperExpert.show(menjadiFlutterDeveloperExpert.getStep(), menjadiFlutterDeveloperExpert.getName(), menjadiFlutterDeveloperExpert.getDescription(), menjadiFlutterDeveloperExpert.getLevel(), menjadiFlutterDeveloperExpert.getTime(), menjadiFlutterDeveloperExpert.getTechnology());
     }
 }
