@@ -242,7 +242,7 @@ public class Dicoding {
         // Azure Cloud Developer
         azureCloudDeveloper.setName("Azure Cloud Developer");
         azureCloudDeveloper.setDescription("Kurikulum lengkap yang didesain bersama salah satu penyedia cloud solution terbesar di dunia yaitu Microsoft Azure. Setiap kelas mempersiapkan siswa untuk ujian sertifikasi resmi Azure dari Microsoft.");
-        androidDeveloper.setClassAcademy(2);
+        azureCloudDeveloper.setClassAcademy(2);
 
         belajarDasarDasarAzureCloud.setStep(1);
         belajarDasarDasarAzureCloud.setName("Belajar Dasar-Dasar Azure Cloud");
@@ -307,6 +307,7 @@ public class Dicoding {
 
         iOSDeveloper.show(iOSDeveloper.getName(), iOSDeveloper.getDescription(), iOSDeveloper.getClassAcademy());
         memulaiPemrogramanDenganSwift.show(memulaiPemrogramanDenganSwift.getStep(), memulaiPemrogramanDenganSwift.getName(), memulaiPemrogramanDenganSwift.getDescription(), memulaiPemrogramanDenganSwift.getLevel(), memulaiPemrogramanDenganSwift.getTime(), memulaiPemrogramanDenganSwift.getTechnology());
+        belajarPrinsipPemrogramanSOLID.show(belajarPrinsipPemrogramanSOLID.getStep(), belajarPrinsipPemrogramanSOLID.getName(), belajarPrinsipPemrogramanSOLID.getDescription(), belajarPrinsipPemrogramanSOLID.getLevel(), belajarPrinsipPemrogramanSOLID.getTime(), belajarPrinsipPemrogramanSOLID.getTechnology());
         belajarMembuatAplikasiIOSUntukPemula.show(belajarMembuatAplikasiIOSUntukPemula.getStep(), belajarMembuatAplikasiIOSUntukPemula.getName(), belajarMembuatAplikasiIOSUntukPemula.getDescription(), belajarMembuatAplikasiIOSUntukPemula.getLevel(), belajarMembuatAplikasiIOSUntukPemula.getTime(), belajarMembuatAplikasiIOSUntukPemula.getTechnology());
         belajarFundamentalAplikasiIOS.show(belajarFundamentalAplikasiIOS.getStep(), belajarFundamentalAplikasiIOS.getName(), belajarFundamentalAplikasiIOS.getDescription(), belajarFundamentalAplikasiIOS.getLevel(), belajarFundamentalAplikasiIOS.getTime(), belajarFundamentalAplikasiIOS.getTechnology());
         menjadiIOSDeveloperExpert.show(menjadiIOSDeveloperExpert.getStep(), menjadiIOSDeveloperExpert.getName(), menjadiIOSDeveloperExpert.getDescription(), menjadiIOSDeveloperExpert.getLevel(), menjadiIOSDeveloperExpert.getTime(), menjadiIOSDeveloperExpert.getTechnology());
@@ -330,6 +331,7 @@ public class Dicoding {
 
         multiPlatformAppDeveloper.show(multiPlatformAppDeveloper.getName(), multiPlatformAppDeveloper.getDescription(), multiPlatformAppDeveloper.getClassAcademy());
         memulaiPemrogramanDenganDart.show(memulaiPemrogramanDenganDart.getStep(), memulaiPemrogramanDenganDart.getName(), memulaiPemrogramanDenganDart.getDescription(), memulaiPemrogramanDenganDart.getLevel(), memulaiPemrogramanDenganDart.getTime(), memulaiPemrogramanDenganDart.getTechnology());
+        belajarPrinsipPemrogramanSOLID.show(belajarPrinsipPemrogramanSOLID.getStep(), belajarPrinsipPemrogramanSOLID.getName(), belajarPrinsipPemrogramanSOLID.getDescription(), belajarPrinsipPemrogramanSOLID.getLevel(), belajarPrinsipPemrogramanSOLID.getTime(), belajarPrinsipPemrogramanSOLID.getTechnology());
         belajarMembuatAplikasiFlutterUntukPemula.show(belajarMembuatAplikasiFlutterUntukPemula.getStep(), belajarMembuatAplikasiFlutterUntukPemula.getName(), belajarMembuatAplikasiFlutterUntukPemula.getDescription(), belajarMembuatAplikasiFlutterUntukPemula.getLevel(), belajarMembuatAplikasiFlutterUntukPemula.getTime(), belajarMembuatAplikasiFlutterUntukPemula.getTechnology());
         belajarFundamentalAplikasiFlutter.show(belajarFundamentalAplikasiFlutter.getStep(), belajarFundamentalAplikasiFlutter.getName(), belajarFundamentalAplikasiFlutter.getDescription(), belajarFundamentalAplikasiFlutter.getLevel(), belajarFundamentalAplikasiFlutter.getTime(), belajarFundamentalAplikasiFlutter.getTechnology());
         menjadiFlutterDeveloperExpert.show(menjadiFlutterDeveloperExpert.getStep(), menjadiFlutterDeveloperExpert.getName(), menjadiFlutterDeveloperExpert.getDescription(), menjadiFlutterDeveloperExpert.getLevel(), menjadiFlutterDeveloperExpert.getTime(), menjadiFlutterDeveloperExpert.getTechnology());
