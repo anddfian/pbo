@@ -5,19 +5,19 @@ public class LearningPath {
     protected String description;
     private int classAcademy;
 
-    public String getName() {
+    protected String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    protected void setName(String name) {
         this.name = name;
     }
 
-    public String getDescription() {
+    protected String getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    protected void setDescription(String description) {
         this.description = description;
     }
 
